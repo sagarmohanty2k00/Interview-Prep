@@ -96,6 +96,8 @@ void rangeUpdate(int *tree, int qs, int qe, int s, int e, int inc, int index){
     return;
 }
 
+
+
 int main(){
 
 #ifndef ONLINE_JUDGE

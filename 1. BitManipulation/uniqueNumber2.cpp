@@ -5,10 +5,10 @@ typedef long long int lli;
 
 
 int main(){
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
+// #ifndef ONLINE_JUDGE
+// 	freopen("input.txt", "r", stdin);
+// 	freopen("output.txt", "w", stdout);
+// #endif
 
 	int n; cin >> n;
 	int arr[n];
@@ -41,7 +41,7 @@ int main(){
 	int y = _xor ^ temp;
 
 
-	cout << min(x, y) << " " << max(x, y) <<endl;
+	cout << x << " " << y <<endl;
 }
 
 
